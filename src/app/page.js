@@ -437,23 +437,28 @@ const PesaDashLanding = () => {
             {[
               {
                 title: "Product",
-                links: ["Features", "Pricing", "Integrations", "Mobile App", "API Documentation"]
+                links: ["Features"]
+                // links: ["Features", "Pricing", "Integrations", "Mobile App", "API Documentation"]
               },
               {
-                title: "Company", 
-                links: ["About Us", "Careers", "Blog", "Press Kit", "Partners"]
-              },
-              {
-                title: "Support",
-                links: ["Help Center", "Contact Sales", "Customer Success", "Privacy Policy", "Terms of Service"]
+                title: "Contact",
+                links: ["Email: sales@pesadach.com", "Phone: +254 712 345-678"]
               }
+              // {
+              //   title: "Company", 
+              //   links: ["About Us", "Careers", "Blog", "Press Kit", "Partners"]
+              // },
+              // {
+              //   title: "Support",
+              //   links: ["Help Center", "Contact Sales", "Customer Success", "Privacy Policy", "Terms of Service"]
+              // }
             ].map((section, index) => (
               <div key={index}>
                 <h3 className="font-bold mb-6 text-xl text-white">{section.title}</h3>
                 <ul className="space-y-4 text-gray-400">
                   {section.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
-                      <button className="hover:text-white transition-all duration-300 text-left hover:translate-x-2 text-lg">
+                      <button className="hover:text-white transition-all duration-300 text-left hover:translate-x-2 text-lg" onClick={() => smoothScroll(link.toLowerCase())}>
                         {link}
                       </button>
                     </li>

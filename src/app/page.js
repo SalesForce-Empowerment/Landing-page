@@ -251,7 +251,7 @@ const PesaDashLanding = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard 
               icon={<CreditCard className="w-8 h-8" />}
-              title="Smart Payments"
+              title="Digital Payments"
               description="Track transactions seamlessly with multiple payment options, real-time processing, and detailed payment analytics to understand your revenue streams better."
             />
             <FeatureCard 
@@ -267,7 +267,7 @@ const PesaDashLanding = () => {
             <FeatureCard 
               icon={<Globe className="w-8 h-8" />}
               title="Customer Engagement"
-              description="Build stronger connections with your customers through personalized experiences, loyalty programs, targeted promotions, and customer relationship management tools."
+              description="Build stronger connections with your customers through personalised experiences, loyalty programs, targeted promotions, and customer relationship management tools."
             />
             <FeatureCard 
               icon={<Smartphone className="w-8 h-8" />}

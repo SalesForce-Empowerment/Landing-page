@@ -343,7 +343,7 @@ const PesaDashLanding = () => {
               },
               {
                 title: "Contact",
-                links: ["Email: sales@pesadach.com", "Phone: +254 758 669820"]
+                links: ["Email: hello@pesadash.com", "Phone: +254 758 669820"]
               }
             ].map((section, index) => (
               <div key={index}>

@@ -6,8 +6,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Pesa-Dash - Empower Your Sales Force",
-  description: "Transform your African business with cutting-edge technology that powers your sales team to operate efficiently, innovate, and succeed.",
+  title: "Pesa-Dash - Empowering Sales Force",
+  description: "Transform your business with cutting-edge technology that powers growth.",
 };
 
 export default function RootLayout({ children }) {
